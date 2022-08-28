@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0; 
+  font-family:Arial;
+}
+
+#logo{
+  margin-left: 2%;
+  width:5%;
+}
+#mbtn{
+  position: absolute;
+  top:-110px;
+  right:10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.navbar{
+  padding: 1rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  width:1%;
+}
+
+a:hover{
+  background-color:lightgrey; 
+}
+
+nav li{
+  display: inline;
+  text-decoration: none;
+  padding-left: 2rem;
+  
+}
+
+#in{
+  margin-left: 5%;
+  width: 20%;
+  border-radius: 5px;
+  outline: none;
+  background-color: lightgray;
+  border-color: transparent;
+}
+
+#sign{
+  position: absolute;
+  right:20%;
+  width:50px;
+  
+}
+
+#free{
+  padding: 5px;
+  background-color: #2860e1;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  right:10%;
+  width:85px;
+}
+
+#free:hover{
+  background-color:blue;
+}
+
+.content{
+  background-color :#2860e1;
+  text-align: center;
+  padding-bottom:7rem;
+  border-radius: 15px;
+  width: 99%;
+  position: absolute;
+  left:0.5%;
+
+}
+
+h5{
+  padding-top: 70px;
+  padding-bottom: 10px;
+  color:blue;
+}
+#h1{
+  padding: 10px;
+  width:40%;
+  margin-left:30%;
+  color: white;
+  font-size: 3rem;
+}
+
+#h4{
+  width:35%;
+  margin-left:32% ;
+  padding: 5px 20px;
+  color:white;
+  font-size:1rem
+}
+
+#doc{
+  display: block;
+  margin-left: 35%;
+  margin-top: 30px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 7px;
+  border-color: transparent;
+  outline: none;
+}
+
+#b1,#b2{
+  background-color: #4778e5;
+  width:25%;
+  display:inline-block;
+  margin-top:5rem;
+  text-align: left;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 2rem;
+}
+
+.content li p{
+  color:white;
+  padding-bottom: 10px;
+  text-align: left;
+}
+#t1{
+  font-size: 1.3rem;
+}
+
+#ex,#int{
+  color:white;
+  text-decoration: none;
+}
+  
+#side{
+  color: transparent;
+  background-color: transparent;
+}
+
+
+
+
+
+@media only screen and (max-width:950px)  
+{
+  html{
+      font-size: 18px;
+  }
+
+  #logo{
+      height:1rem;
+      width:4rem;
+  }
+  
+  #mbtn{
+    
+      position: absolute;
+      top:10px;
+      right:20px;
+      width: 1.5rem;
+      height: 1.5rem;
+      
+  }
+
+  nav li a{
+      position: absolute;
+      top:-1000px
+  }
+
+
+  #side{
+      color:white;
+      position: absolute;
+      top:0px;
+      right:0px;
+      background-color:blue;
+      padding-top: 30px;
+      padding-left: 10px;
+      width:40%;
+      height: 100%;
+      font-size: 20px;
+      visibility:hidden;
+  }
+
+  #side a{
+      display: block;
+      margin-top: 25px;
+      padding:15px 10px;
+  }
+
+  #side a:hover{
+      color: black;
+  }
+  
+
+  .content{
+      width:98%;
+      position: absolute;
+      left:1%;
+  }
+
+  #in{
+      width:40%;
+      padding: 5px;
+      position: absolute;
+      top: 12px;
+      left:10%;
+      margin-left: 20%;
+      min-width: none;
+  }
+  #h1{
+      width:80%;
+      margin-left: 10%;
+      font-size: 2rem;
+  }
+  #h4{
+      width: 70%;
+      margin-left: 13%;
+      font-size: 0.8rem;
+      color:lightgray;
+  }
+  #doc{
+      width:60%;
+      margin-left: 18%;
+  }
+  #b1,#b2{
+      display: block;
+      width:70%;
+      margin-left: 6vw;;
+  }
+
+  #t2,#t2{
+      font-size: 0.8rem;
+      color: lightgray;
+  }
+  
+  
+}
